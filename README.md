@@ -1,3 +1,3 @@
-# Q-Learning
+# Reinforcement Learning
 
-Some algorithms using Q Learning to resolve OpenAI Gym problems
+Some algorithms using Reinforcement Learning to solve OpenAI Gym problems
