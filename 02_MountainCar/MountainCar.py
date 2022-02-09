@@ -121,9 +121,9 @@ if __name__ == '__main__':
     env.reset()
     
     training_data = data_preparation(env = env,
-                                           number_games = 10000, 
-                                           number_steps = 200, 
-                                           score_requirement = -198)
+                                     number_games = 10000, 
+                                     number_steps = 200, 
+                                     score_requirement = -198)
     
     model = train_model(training_data)
     
