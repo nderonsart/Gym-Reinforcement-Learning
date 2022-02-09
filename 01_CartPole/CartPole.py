@@ -25,7 +25,7 @@ from keras.optimizers import Adam
 import time
 
 
-def model_data_preparation(env, number_games, number_steps, score_requirement):
+def data_preparation(env, number_games, number_steps, score_requirement):
     '''
         Prepare the data for the training part with random actions on a number 
         of games
@@ -116,7 +116,7 @@ if __name__ == '__main__':
     env = gym.make('CartPole-v1')
     env.reset()
 
-    training_data = model_data_preparation(env = env,
+    training_data = data_preparation(env = env,
                                            number_games = 10000, 
                                            number_steps = 500, 
                                            score_requirement = 60)
